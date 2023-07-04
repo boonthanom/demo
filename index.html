@@ -10,103 +10,163 @@
     <script src="js/bootstrap.js"></script>
     <style>
         body {
-            background-image: url('Img/bg-2.png');
+            background-image: url('/Img/bg-2.png');
         }
     </style>
 </head>
 
 <body>
-<!--3 Black ontop -->
- <!--Footter Clack ที่ 1-->
- <div class="container my-1 bg-primary rounded-3">
-    <div class="row">
-        <div class="col-lg-8 m-auto">
-            <h3 class="text-primary">Buttom Black</h3>
-            <p> OnTop-Nav เมนู Bar</p>
-            </dev>
-            </dev>
+    <!--3 Black ontop -->
+    <!--Footter Clack ที่ 1-->
+    <div class="container col-xl my-3 bg-info rounded-3">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Img\logo.png" width="100" height="100" class="rounded-circle border border-5  ">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">เมนูที่1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">เมนูที่2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">เมนูที่3</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">เมนูที่4</a>
+                        </li>
+                        <!--DropDown2-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <!--DropDown2-->
+                        <!--Search-->
+                        <nav class="navbar navbar-light ">
+                            <div class="container-fluid">
+                              <a class="navbar-brand"></a>
+                              <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Search</button>
+                              </form>
+                            </div>
+                          </nav>
+                          <!--Search-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Footter Clack ที่ 2-->
+    <div class="container col-xl my-3 bg-info rounded-3">
+        <div class="row">
+            <div class="col-xl m-auto">
+                <h3 class="text-primary">Black ที่ 2 -ข่าวสาร-ประชาสัมพันธ์</h3>
+                <p>ส่วนท้าย เว็บเพจ.</p>
+                <!--Card Group on Top-->
+                <div class="container my-1 rounded-3 card-group">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">เที่ยวทะเล</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                                necessitatibus
+                                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
+                                sapiente non
+                                blanditiis inventore quasi labore tempora enim dicta a!</p>
+                            <a href="#" class="btn btn-info">อ่านบทความ</a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">เที่ยวภูเขา</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                                necessitatibus
+                                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
+                                sapiente non
+                                blanditiis inventore quasi labore tempora enim dicta a!</p>
+                            <a href="#" class="btn btn-info">อ่านบทความ</a>
+                        </div>
+                    </div>
+                    <!-- Card-3 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">เที่ยวน้ำตก</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                                necessitatibus
+                                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
+                                sapiente non
+                                blanditiis inventore quasi labore tempora enim dicta a!</p>
+                            <a href="#" class="btn btn-info">อ่านบทความ</a>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">เที่ยวต่างประเทศ</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+                                necessitatibus
+                                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
+                                sapiente non
+                                blanditiis inventore quasi labore tempora enim dicta a!</p>
+                            <a href="#" class="btn btn-info">อ่านบทความ</a>
+                        </div>
+                    </div>
+                </div>
+                <!--CardGroup-->
+                </dev>
+                </dev>
+            </div>
         </div>
     </div>
-</div>
-
-<!--Footter Clack ที่ 2-->
-<div class="container col-xl my-3 bg-info rounded-3">
-    <div class="row">
-        <div class="col-xl m-auto">
-            <h3 class="text-primary">Black ที่ 2 -ข่าวสาร-ประชาสัมพันธ์</h3>
-            <p>ส่วนท้าย เว็บเพจ.</p>
-<!--Card Group on Top-->
-<div class="container my-1 rounded-3 card-group">
-    <!-- Card 1 -->
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">เที่ยวทะเล</h4>
-            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                necessitatibus
-                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
-                sapiente non
-                blanditiis inventore quasi labore tempora enim dicta a!</p>
-            <a href="#" class="btn btn-info">อ่านบทความ</a>
+    <!--Footter Clack ที่ 3-->
+    <div class="container my-1 bg-warning rounded-3">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <h3 class="text-primary"> ส่วนที่ 3 </h3>
+                <p>ข้อความประชาสัมพันธ์ <Marquee>*****************ข้อความวิ่ง1********************
+                        *******************ข้อความวิ่ง1*****************
+                        *****************ข้อความวิ่ง3******************** </Marquee>
+                </p>
+                </dev>
+                </dev>
+            </div>
         </div>
     </div>
-    <!-- Card 2 -->
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">เที่ยวภูเขา</h4>
-            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                necessitatibus
-                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
-                sapiente non
-                blanditiis inventore quasi labore tempora enim dicta a!</p>
-            <a href="#" class="btn btn-info">อ่านบทความ</a>
-        </div>
-    </div>
-    <!-- Card-3 -->
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">เที่ยวน้ำตก</h4>
-            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                necessitatibus
-                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
-                sapiente non
-                blanditiis inventore quasi labore tempora enim dicta a!</p>
-            <a href="#" class="btn btn-info">อ่านบทความ</a>
-        </div>
-    </div>
-    <!-- Card 4 -->
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">เที่ยวต่างประเทศ</h4>
-            <h6 class="card-subtitle mb-2 text-muted">เผยแพร่ 01/01/2021</h6>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-                necessitatibus
-                libero veniam doloremque soluta. Commodi, similique, nesciunt corporis laboriosam fuga
-                sapiente non
-                blanditiis inventore quasi labore tempora enim dicta a!</p>
-            <a href="#" class="btn btn-info">อ่านบทความ</a>
-        </div>
-    </div>
-</div>
-<!--CardGroup-->
-            </dev>
-            </dev>
-        </div>
-    </div>
-</div>
-<!--Footter Clack ที่ 3-->
-<div class="container my-1 bg-warning rounded-3">
-<div class="row">
-    <div class="col-lg-8 m-auto">
-        <h3 class="text-primary"> ส่วนที่ 3  </h3>
-        <p>ข้อความประชาสัมพันธ์ <Marquee>*****************ข้อความวิ่ง1********************    *******************ข้อความวิ่ง1*****************   *****************ข้อความวิ่ง3******************** </Marquee></p>
-        </dev>
-        </dev>
-    </div>
-</div>
-</div>
 
     <div class="container my-1 bg-info rounded-3">
         <div class="row">
@@ -294,17 +354,17 @@
             </div>
         </div>
     </div>
-<!--Footter Clack ที่ 3-->
-<div class="container my-1 bg-warning rounded-3">
-    <div class="row">
-        <div class="col-lg-8 m-auto">
-            <h3 class="text-primary">Footter Area ที่ 3</h3>
-            <p>ส่วนท้าย เว็บเพจ ที่ 3</p>
-            </dev>
-            </dev>
+    <!--Footter Clack ที่ 3-->
+    <div class="container my-1 bg-warning rounded-3">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <h3 class="text-primary">Footter Area ที่ 3</h3>
+                <p>ส่วนท้าย เว็บเพจ ที่ 3</p>
+                </dev>
+                </dev>
+            </div>
         </div>
     </div>
-</div>
 </body>
 
 </html>
